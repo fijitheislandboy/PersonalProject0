@@ -1,5 +1,5 @@
 import tweepy
 
 def makePost(apiFunction):
- tweepy.API.update_status("hello World")
-
+    apiFunction.update_status("hello World")
+    return 0

@@ -1,7 +1,9 @@
 # Fiji Marcelin
 # computingID:fm4cg
-import Authentication.login,tweepy,Status
+import Authentication.login,tweepy, Status.MakeStatus
+import logging
 
+logEvents = logging.getLogger()
 login = Authentication.login.loginFunction()
 callTweepy = tweepy.API(login)
 
@@ -11,4 +13,4 @@ try:
 except:
     print("Auth problem")
 
-
+Status.MakeStatus.makePost(callTweepy)
