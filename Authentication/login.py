@@ -1,16 +1,16 @@
 # Fiji Marcelin
 # computingID:fm4cg
-import tweepy
+import tweepy,os
 import Logging.loggerCode
 
+BOT_KEY = os.environ['BOT_KEY']
+USER_SECRET = os.environ['USER_SECRET']
+SESSION_TOKEN = os.environ['SESSION_TOKEN']
+SESSION_SECRET = os.environ['SESSION_SECRET']
 
 def loginFunction():
-    userBotKey = "insert bot key"
-    userSecretKey = "insert secret key"
-    sessionAccessToken = ""
-    sessionSecretToken = ""
-    authenticate = tweepy.OAuthHandler(userBotKey,userSecretKey)
-    authenticate.set_access_token(sessionAccessToken,sessionSecretToken)
+    authenticate = tweepy.OAuthHandler(BOT_KEY,USER_SECRET)
+    authenticate.set_access_token(SESSION_TOKEN,SESSION_SECRET)
     #change/improve later
     Logging.loggerCode.updateLog("Bot logged in")
     return authenticate
