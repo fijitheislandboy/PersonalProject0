@@ -1,4 +1,4 @@
-import logging
+import logging,spotipy
 import datetime
 
 startLog = logging.getLogger()

@@ -1,6 +1,6 @@
 # Fiji Marcelin
 # computingID:fm4cg
-import Authentication.login,tweepy, Status.MakeStatus
+import Authentication.login,tweepy, Status.MakeStatus,spotipy
 import Logging.loggerCode
 
 logEvents = Logging.loggerCode
@@ -14,5 +14,5 @@ try:
 except:
     print("Auth problem")
     logEvents.updateLog("Authentication Error")
-
+###################
 Status.MakeStatus.makePost(callTweepy)

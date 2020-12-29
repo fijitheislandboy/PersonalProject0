@@ -1,6 +1,6 @@
 # Fiji Marcelin
 # computingID:fm4cg
-import tweepy,os
+import tweepy,os,spotipy
 import Logging.loggerCode
 
 BOT_KEY = os.environ['BOT_KEY']
@@ -15,3 +15,6 @@ def loginFunction():
     Logging.loggerCode.updateLog("Bot logged in")
     return authenticate
 
+def spotifyFunction():
+
+    return 0

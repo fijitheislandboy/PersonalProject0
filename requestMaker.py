@@ -1,7 +1,6 @@
 # Fiji Marcelin
 # computingID:fm4cg
-import urllib
-import tweepy
+import urllib, tweepy, spotipy
 import Logging.loggerCode
 
 

@@ -1,4 +1,4 @@
-import tweepy
+import tweepy, spotipy
 import Logging.loggerCode
 def makePost(apiFunction):
     #this is to hold the link returned from spotify
