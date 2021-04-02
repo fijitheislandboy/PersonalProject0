@@ -2,7 +2,9 @@
 # computingID:fm4cg
 import Authentication.login,tweepy, Status.MakeStatus,spotipy
 import Logging.loggerCode
-
+import QueryLogic.QueryHandler
+querySystem = QueryLogic.QueryHandler
+querySystem.spotifyFunction()
 logEvents = Logging.loggerCode
 login = Authentication.login.loginFunction()
 callTweepy = tweepy.API(login)

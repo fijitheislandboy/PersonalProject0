@@ -1,9 +1,10 @@
 import logging,spotipy
-import datetime
-
+from pytz import timezone
+from _datetime import datetime
+#initialize a subclass for EST
+timeZone = timezone('EST')
 startLog = logging.getLogger()
-date = datetime.date()
-time = datetime.time()
+occurenceInfo = datetime.now(timeZone)
 def updateLog(phrase):
-    startLog.info("On " + date + "at " + time + phrase)
+    startLog.info("On " + str(occurenceInfo) + ": " + phrase)
     return 0

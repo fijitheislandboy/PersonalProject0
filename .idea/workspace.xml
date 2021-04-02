@@ -25,6 +25,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Authentication/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Authentication/login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logging/loggerCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/Logging/loggerCode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QueryLogic/QueryHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/QueryLogic/QueryHandler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Status/MakeStatus.py" beforeDir="false" afterPath="$PROJECT_DIR$/Status/MakeStatus.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requestMaker.py" beforeDir="false" afterPath="$PROJECT_DIR$/requestMaker.py" afterDir="false" />
@@ -33,61 +34,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-              <folding>
-                <element signature="e#36#89#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requestMaker.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Status/MakeStatus.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Authentication/login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-              <folding>
-                <element signature="e#36#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Logging/loggerCode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,70 +45,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/requestMaker.py" />
-        <option value="$PROJECT_DIR$/Status/MakeStatus.py" />
-        <option value="$PROJECT_DIR$/Logging/loggerCode.py" />
-        <option value="$PROJECT_DIR$/Authentication/login.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="984" />
-    <option name="height" value="1104" />
-  </component>
   <component name="ProjectId" id="1mGcx7pAtq29qehIpGd4GJ2B7hb" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="PersonalProject0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PersonalProject0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PersonalProject0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PersonalProject0" type="462c0819:PsiDirectoryNode" />
-              <item name="Authentication" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PersonalProject0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PersonalProject0" type="462c0819:PsiDirectoryNode" />
-              <item name="Logging" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PersonalProject0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PersonalProject0" type="462c0819:PsiDirectoryNode" />
-              <item name="Query Logic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PersonalProject0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PersonalProject0" type="462c0819:PsiDirectoryNode" />
-              <item name="Status" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AppData/Local/Programs/Python/Python39/python.exe" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -173,19 +64,28 @@
       <recent name="C:\Users\Fiji Marcelin\PersonalProject0\Logging" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="QueryHandler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PersonalProject0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QueryLogic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QueryLogic/QueryHandler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PersonalProject0" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,10 +110,11 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.QueryHandler" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -227,61 +128,12 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14785373" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3283582" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14785373" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -300,93 +152,73 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="479" key="GridCell.Tab.0.bottom" timestamp="1608587783039">
+    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612257187729">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="479" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1608587783039" />
-    <state width="1899" height="479" key="GridCell.Tab.0.center" timestamp="1608587783039">
+    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1612257187729" />
+    <state x="1195" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612255690157">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="479" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1608587783039" />
-    <state width="1899" height="479" key="GridCell.Tab.0.left" timestamp="1608587783039">
+    <state x="1195" y="345" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1612255690157" />
+    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1617315065508">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="479" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1608587783039" />
-    <state width="1899" height="479" key="GridCell.Tab.0.right" timestamp="1608587783039">
+    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1617315065508" />
+    <state width="1899" height="365" key="GridCell.Tab.0.bottom" timestamp="1617353937423">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="479" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1608587783039" />
-    <state width="1899" height="479" key="GridCell.Tab.1.bottom" timestamp="1608587783039">
+    <state width="1899" height="365" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1617353937423" />
+    <state width="1899" height="365" key="GridCell.Tab.0.center" timestamp="1617353937423">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="479" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1608587783039" />
-    <state width="1899" height="479" key="GridCell.Tab.1.center" timestamp="1608587783039">
+    <state width="1899" height="365" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1617353937423" />
+    <state width="1899" height="365" key="GridCell.Tab.0.left" timestamp="1617353937423">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="479" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1608587783039" />
-    <state width="1899" height="479" key="GridCell.Tab.1.left" timestamp="1608587783039">
+    <state width="1899" height="365" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1617353937423" />
+    <state width="1899" height="365" key="GridCell.Tab.0.right" timestamp="1617353937423">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="479" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1608587783039" />
-    <state width="1899" height="479" key="GridCell.Tab.1.right" timestamp="1608587783039">
+    <state width="1899" height="365" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1617353937423" />
+    <state width="1899" height="365" key="GridCell.Tab.1.bottom" timestamp="1617353833314">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="479" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1608587783039" />
+    <state width="1899" height="365" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1617353833314" />
+    <state width="1899" height="365" key="GridCell.Tab.1.center" timestamp="1617353833314">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="365" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1617353833314" />
+    <state width="1899" height="365" key="GridCell.Tab.1.left" timestamp="1617353833314">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="365" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1617353833314" />
+    <state width="1899" height="365" key="GridCell.Tab.1.right" timestamp="1617353833314">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="365" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1617353833314" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Authentication/login.py</url>
-          <line>19</line>
+          <url>file://$PROJECT_DIR$/QueryLogic/QueryHandler.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>4</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Logging/loggerCode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="e#36#89#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requestMaker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Status/MakeStatus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Authentication/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding>
-            <element signature="e#36#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="myPlaylist['tracks']" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

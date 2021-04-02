@@ -1,7 +1,8 @@
 # Fiji Marcelin
 # computingID:fm4cg
-import tweepy,os,spotipy
+import tweepy,os, spotipy
 import Logging.loggerCode
+from spotipy.oauth2 import SpotifyClientCredentials
 
 BOT_KEY = os.environ['BOT_KEY']
 USER_SECRET = os.environ['USER_SECRET']
@@ -15,6 +16,3 @@ def loginFunction():
     Logging.loggerCode.updateLog("Bot logged in")
     return authenticate
 
-def spotifyFunction():
-
-    return 0
