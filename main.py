@@ -1,5 +1,4 @@
-# Fiji Marcelin
-# computingID:fm4cg
+# Fiji
 import Authentication.login,tweepy, Status.MakeStatus,spotipy
 import Logging.loggerCode
 import QueryLogic.QueryHandler
