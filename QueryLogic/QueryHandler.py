@@ -11,8 +11,6 @@ def spotifyFunction():
     print('reach')
     #get the playlist
     myPlaylist = starchild.playlist('0NlZyeckr2Y3vJsotqydub')
-    #use data in playlist and generate a random number to determine which song in the
-    #playlist to use?
     playlistTracks = myPlaylist['tracks']
     songs = playlistTracks['items']
     i = 0
