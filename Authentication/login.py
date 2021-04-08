@@ -1,5 +1,4 @@
-# Fiji Marcelin
-# computingID:fm4cg
+# Fiji
 import tweepy,os, spotipy
 import Logging.loggerCode
 from spotipy.oauth2 import SpotifyClientCredentials
